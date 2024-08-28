@@ -1,0 +1,104 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 30px;
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-logo p {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+  }
+  
+  .navbar-items ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-items li {
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .navbar-items li:hover {
+    color: gray;
+  }
+  
+  .navbar-searchbox {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .navbar-searchbox input {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .navbar-searchbox input::placeholder {
+    color: #999;
+  }
+  
+  .navbar-searchbox svg {
+    margin-left: -30px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .navbar-login,
+  .navbar-favorite,
+  .navbar-shopBag {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 0;  /* No space between icons */
+  }
+  
+  .navbar-login svg,
+  .navbar-favorite svg,
+  .navbar-shopBag svg {
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;  /* Remove or reduce spacing */
+  }
+  
+  .navbar-login p {
+    margin: 0;
+    font-size: 16px;
+    color: black;
+    margin-left: 5px;
+  }
+  
+  .navbar-shopingButton button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .navbar-shopingButton button:hover {
+    background-color: gray;
+  }
+  
+  .navbar-shopingButton {
+    margin-left: 20px;
+  }
+  
